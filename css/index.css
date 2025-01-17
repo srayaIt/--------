@@ -1,0 +1,93 @@
+body {
+    background-color:#f1efd6;
+   margin: 0px;
+   padding: 0px;
+    min-height: 1000px;
+    font-family: cursive;
+
+
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: fixed; /* קובע שההדר יישאר במקום */
+    z-index: 1000; /* מבטיח שההדר יהיה מעל כל תוכן אחר */
+top: 0;
+}
+
+.Top-container {
+    background: linear-gradient(to right,#AE914D, #E2DC92) ;
+    height: 50px;
+    
+    color: white;
+}
+
+
+
+
+.img-logo {
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px; /* הזזת הלוגו כלפי מטה */
+}
+
+.nav{
+    background-color:white;
+height: 50px;
+margin: 0;
+
+}
+
+.nav-left {
+    width: 30%;
+    color: #AE914D;
+    margin: 0;
+padding: 0;
+}
+
+.nav-right  {
+    width: 30%;
+   
+}.nav a{
+    color: #AE914D;
+    margin: 0px;
+    text-decoration: none;
+
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.main{
+    min-height: 1000px;
+    color: #AE914D;
+    padding-top: 150px;
+}
+.middle{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+
+
+.footer{
+ background: linear-gradient(to right,#AE914D, #E2DC92) ;
+ color: white;
+ min-height: 100px;
+ text-align: center;
+ 
+}#story{
+    margin: 50px;
+}
+
+.img-logo-footer {
+    height: 150px;
+    border-radius: 50%;
+   
+}
