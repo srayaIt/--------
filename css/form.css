@@ -1,0 +1,47 @@
+.main{
+    min-height: 700px;
+}
+    form {
+       
+        max-width: 400px;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-size: 16px;
+       color: #AE914D;
+    }
+
+    input:placeholder {
+        color: #999;
+    }
+
+
+
+    input[type="submit"] {
+        background-color:#AE914D;
+        color: #fff;
+        border: none;
+      
+       
+    }
+
+    input[type="submit"]:hover {
+        background-color: #E2DC92;
+    }

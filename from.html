@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>בן הפקות</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/form.css">
+
 </head>
 
 <body>
@@ -32,7 +34,7 @@
                             <a href="menus.html">תפריטים</a>
                         </div>
                         <div class="nav-right center">
-                            <a href="logo/from.html">צור קשר</a>
+                            <a href="from.html">צור קשר</a>
                             <a href="about.html">אודותינו</a>
                             <a href="index.html">דף הבית</a>
                         </div>
@@ -48,14 +50,33 @@
             <h1>בן הפקות
                 <br>
                 להפוך כל אירוע לבלתי נשכח
-
-
-
             </h1>
-            <h2>הקייטרינג שלנו יהפוך את האירוע שלכם לחוויה קולינרית ייחודית.
-                אנו מספקים לווי קולינרי לכל אורך האירוע הכולל סידור מגשים על מזנון,
-                ושירות הגשה. אתם, נשאר לכם רק לחגוג.
-            </h2>
+            <p>?מתכנניים אירוע בקרוב <br>השאירו פרטים ואנחנו נחזור אליכם</p>
+            <form  action="/submit-form" method="post">
+                <label for="name">שם</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="phon">טלפון</label>
+                <input type="tel" id="phon" name="phon" required>
+                <br><br>
+
+                <label for="date"> ספרו לנו אם יש לכם כבר תאריך </label>
+                <input type="date" id "data=" name="data"required>
+                <br><br>
+                <label for="choice">בחרו את סוג האירוע</label>
+                <select name="choice" id="choice" required>
+                    <option value="" disabled selected hidden>בחרו סוג אירוע</option>
+                
+                <option value="option1">חתונה</option>
+                <option value="option2">בר מצווה</option>
+                <option value="option3">בת מצווה</option>
+                <option value="option4">ברית</option>
+                <option value="option5">יום הולדת</option>
+                <option value="option6">חינה</option>
+                <option value="option7">יום גיבוש</option>
+                <option value="option8">אחר</option>
+             </select>
+             <input type="submit" value="שלח">
+            </form>
         </div>
     </div>
     <div class="footer ">

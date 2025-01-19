@@ -1,0 +1,7 @@
+.galery-img img{
+    height: 200px;
+    margin: 10px;
+    border-radius: 15%;
+    border: 4px solid;
+
+}
